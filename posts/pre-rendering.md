@@ -5,7 +5,7 @@ date: '2024-08-02'
 
 **"Every artist dips his brush in his own soul, and paints his own nature into his pictures." – Henry Ward Beecher**
 
-<h2>My Inspiration:</h2>
+### My Inspiration:
 
 1. **Nature:**
 The natural world offers endless inspiration with its colors, forms, and textures. Landscapes, flora, fauna, and natural phenomena can provide a rich source of subject matter and mood.

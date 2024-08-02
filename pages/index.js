@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className={utilStyles.headingLg}>Welcome to My World!</h2>
-        <p>
+        <p className={utilStyles.mystring}>
 
           Hey there! I'm Sakshi Pandit, and I'm thrilled to have you here.
           If you love stories, adventures, and a bit of everyday magic, you're in the right place.
@@ -39,21 +39,24 @@ export default function Home({ allPostsData }) {
 
         </p>
         <h2 className={utilStyles.headingLg}>My Passions</h2>
-        <p>
-          <li><h className={utilStyles.headingMd}><b>Travel:</b></h></li>
+        
+          <li><h className={utilStyles.headingMed}><b>Travel:</b></h></li>
           <p>
 
             Nothing excites me more than packing a bag and heading off to explore new places.
             .Whether it's a bustling city or a serene countryside, every destination has a story to tell.
 
           </p>
-          <Image
+          <div className={utilStyles.image_my}>
+          <Image 
             priority
             src="/images/travel.jpg"
             height={500}
             width={600}
             alt=""
           />
+          </div>
+          
           <p>
 
             Over the years, I’ve had the chance to explore a diverse array of cities across India,
@@ -65,6 +68,7 @@ export default function Home({ allPostsData }) {
 
 
           </p>
+          <div className={utilStyles.image_my}>
           <Image
             priority
             src="/images/life.jpg"
@@ -72,6 +76,7 @@ export default function Home({ allPostsData }) {
             width={500}
             alt=""
           />
+          </div>
           <p>
 
             Manali and Kasol have provided me with breathtaking landscapes and tranquil moments,
@@ -89,43 +94,47 @@ export default function Home({ allPostsData }) {
           </p>
 
           <br />
-          <li><b>Cooking:</b></li>
+          <li><h className={utilStyles.headingMed}><b>Cooking:</b></h></li>
           <p>
             I love experimenting in the kitchen.
             From traditional recipes to new culinary creations, cooking is my therapy.</p>
-          <Image
+          <div className={utilStyles.image_my}>
+          <Image 
             priority
             src="/images/cooking.jpg"
             height={500}
             width={700}
             alt=""
           />
+          </div>
           <br />
-          <li><b>Movies and Music:</b></li>
+          <li><h className={utilStyles.headingMed}><b>Movies and Music:</b></h></li>
           <p>
             A good movie or a soulful song can transport me to another world.
             I enjoy a wide range of genres and always look for something new to watch or listen to.
           </p>
           <br />
-          <li><b>Photography and Painting:</b> </li><p>
+          <li><h className={utilStyles.headingMed}><b>Photography and Painting:</b></h> </li><p>
 
             Capturing moments through my lens or expressing my thoughts on canvas brings me immense joy.</p>
-          <Image
+          <div className={utilStyles.image_my}>
+          <Image 
             priority
             src="/images/photography.jpg"
             height={500}
             width={600}
             alt=""
           />
+          </div>
           <br />
-          <li><b>Life's Little Moments:</b> </li>
+          <li><h className={utilStyles.headingMed}><b>Life's Little Moments:</b></h> </li>
           <p>
 
             Whether it's a quiet morning with
             a cup of coffee or a spontaneous road trip, I believe in savoring life's little moments.
 
           </p>
-        </p>
+        
 
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
