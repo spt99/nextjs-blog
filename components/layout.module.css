@@ -1,7 +1,8 @@
 .container {
-    max-width: 40rem;
-    padding: 0 1rem;
+    max-width: 50rem;
+    padding: 5rem;
     margin: 3rem auto 6rem;
+    background-color: rgb(249, 231, 231);
   }
   .header {
     display: flex;
